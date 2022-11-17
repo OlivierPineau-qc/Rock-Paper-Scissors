@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#playerSelectionContainer {
+  padding: 2rem 12rem;
+  text-align: center;
+}
+
+#playerSelectionContainer button {
+  background-color: blue;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  margin: 0 3rem;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+#playerSelectionContainer button:hover {
+  cursor: pointer;
+}
+
+#playerSelectionContainer h1 {
+  margin: 2rem 2rem;
+}
+
+#resultsContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 2rem 1rem;
+  padding: 1rem 16rem;
+}
+
+#resultsContainer div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#resultsContainer p {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+#winnerContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#restartGame {
+  text-align: center;
+  margin: 4rem 2rem;
+  font-weight: bolder;
+}

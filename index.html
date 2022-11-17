@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8">
     <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
   </head>
   <body>
-    
-    <script src="javascript.js"></script>
+    <!-- Player Selection Container -->
+    <div id="playerSelectionContainer">
+      <h1>PLAYER SELECTION</h1>
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <!-- RESULTS CONTAINER -->
+    <div id="resultsContainer">
+      <!-- PLAYER SCORE -->
+      <div id="playerScore">
+        <h3>Your score : </h3>
+        <p id="playerScoreCounter"></p>
+      </div>
+      <!-- COMPUTER SCORE -->
+      <div id="computerScore">
+        <h3>Computer score : </h3>
+        <p id="computerScoreCounter"></p>
+      </div>
+    </div>
+
+    <!-- WINNER MESSAGE -->
+    <div id="winnerContainer">
+      <h1 id="winnerMessage"></h1>
+    </div>
+    <p id="restartGame"></p>
   </body>
 </html>
